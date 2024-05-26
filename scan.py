@@ -23,3 +23,4 @@ for host in nm.all_hosts():
         for port in sorted(ports):
             print("Port: ", port, "State: ", 
 nm[host][proto][port]['state'])
+
